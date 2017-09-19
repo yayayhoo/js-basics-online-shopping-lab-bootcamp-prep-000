@@ -6,12 +6,14 @@ function getCart() {
 
 function setCart(c) {
   cart = c;
-  console.log('cart');
+  // console.log('cart');
   return cart;
 }
 
 function addToCart(item) {
+  var it = {1:item};
  // write your code here
+ cart.push(it);
 }
 
 function viewCart() {
