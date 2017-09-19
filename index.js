@@ -11,7 +11,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  var it = {1:item};
+  var it = {item: ''};
  // write your code here
  cart.push(it);
 }
